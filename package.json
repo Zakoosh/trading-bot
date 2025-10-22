@@ -1,20 +1,14 @@
 {
-  "name": "trading-bot-workspace",
+  "name": "trading-bot",
+  "version": "1.0.0",
   "private": true,
-  "packageManager": "pnpm@9.12.0",
   "scripts": {
     "dev": "pnpm --filter web dev",
     "build": "pnpm --filter web build",
-    "start": "pnpm --filter web start",
-    "lint": "pnpm --filter web lint",
-    "typecheck": "pnpm --filter web typecheck",
-    "format": "pnpm --filter web format",
-    "test": "pnpm --filter web test",
-    "test:watch": "pnpm --filter web test:watch",
-    "e2e": "pnpm --filter web e2e",
-    "check": "pnpm run lint && pnpm run typecheck && pnpm run test",
     "ci": "pnpm --filter web ci"
-
-"devDependencies": {
-  "pnpm": "^9.12.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "prettier": "^3.2.5"
+  }
 }
