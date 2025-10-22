@@ -14,5 +14,7 @@
     "e2e": "pnpm --filter web e2e",
     "check": "pnpm run lint && pnpm run typecheck && pnpm run test",
     "ci": "pnpm --filter web ci"
-  }
+
+"devDependencies": {
+  "pnpm": "^9.12.2"
 }
